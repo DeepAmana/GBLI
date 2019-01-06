@@ -78,7 +78,7 @@ namespace GBLI_DEMO
 
         public static void writeTofile(ConceptOneReply c)
         {
-            string TxtFile = @"C:\hjk\TEST.txt";
+            string TxtFile = @"G:\KMG\GBLI_NEW_MAPPING\XMLRead\TEST.txt";
 
             using (StreamWriter sw = File.CreateText(TxtFile))
             {
