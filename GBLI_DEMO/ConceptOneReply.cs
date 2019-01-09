@@ -13,7 +13,8 @@ namespace GBLI_DEMO
         [XmlAttribute("Process_Message")]
         public string Process_Message { get; set; }
 
-        public string Count { get; set; }
+        [XmlAttribute("Contract_Num")]
+        public string Contract_num { get; set; }
 
     }
 }
